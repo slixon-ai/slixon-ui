@@ -20,6 +20,7 @@ const meta: Meta<typeof Button> = {
     asChild: { control: 'boolean' },
     className: { control: 'text' },
     disabled: { control: 'boolean' },
+    onClick: { action: 'clicked' },
   },
 };
 
