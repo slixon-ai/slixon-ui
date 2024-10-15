@@ -12,9 +12,10 @@ body {
   }
 }
 
+/* Slixon Primary Color is #2AEAE7 */
 @layer base {
   :root {
-    --gradient: linear-gradient(to right,#0b2774,#12D8FA, #29EAC4);
+    --gradient: linear-gradient(to right,#29EAC4,#12D8FA, #0b2774);
     --background: 238 99.15% 98.5%;
     --foreground: 238 8.299999999999999% 1%;
 
@@ -30,8 +31,9 @@ body {
     --border: 238 13.299999999999999% 90%;
     --input: 238 13.299999999999999% 90%;
 
-    --primary: 238 83% 25%;
-    --primary-foreground: 238 1.66% 92.5%;
+    /* Slixon Primary Color is #2AEAE7 */
+    --primary: 179 82% 54%;
+    --primary-foreground: 179 8.2% 5.4%;
 
     --secondary: 238 4.1499999999999995% 96.25%;
     --secondary-foreground: 238 5.9799999999999995% 12.5%;
@@ -63,6 +65,7 @@ body {
     --border: 179 41% 16.200000000000003%;
     --input: 179 41% 16.200000000000003%;
 
+    /* Slixon Primary Color is #2AEAE7 */
     --primary: 179 82% 54%;
     --primary-foreground: 179 8.2% 5.4%;
 
